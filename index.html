@@ -32,8 +32,8 @@
     @font-face { font-family: "Jost"; font-weight: 400 700; font-style: normal; font-display: swap; src: url("assets/fonts/jost-variavel.woff2") format("woff2"); }
   </style>
 
-  <link rel="stylesheet" href="assets/css/styles.css?v=202609251805">
-  <script src="assets/js/main.js?v=202609251805" defer></script>
+  <link rel="stylesheet" href="assets/css/styles.css?v=202609251833">
+  <script src="assets/js/main.js?v=202609251833" defer></script>
 
   <script type="application/ld+json">
   {
@@ -137,10 +137,10 @@
     <img src="assets/img/hero-1600.webp"
          srcset="assets/img/hero-800.webp 800w, assets/img/hero-1600.webp 1080w"
          sizes="(min-width: 1024px) 45vw, 100vw"
-         width="1080" height="740"
-         alt="Dra. Tati Rodrigues, biomédica da Biocline, em retrato de estúdio"
+         width="1080" height="1080"
+         alt="Dra. Tati Rodrigues, biomédica da Biocline, sentada em retrato de estúdio"
          fetchpriority="high"
-         class="aspect-[4/3] w-full rounded-[2rem] object-cover shadow-[0_24px_60px_-24px_rgb(142_32_89/0.55)] lg:rounded-tl-[6rem]">
+         class="aspect-square w-full max-w-xl justify-self-center rounded-[2rem] object-cover shadow-[0_24px_60px_-24px_rgb(142_32_89/0.55)] lg:max-w-none lg:rounded-tl-[6rem]">
   </div>
 
   <!-- Onda de transição para o fundo da página -->
@@ -184,7 +184,7 @@
       <li class="flex flex-col border-t-2 border-marca pt-6">
         <span class="font-titulo text-4xl italic text-marca" aria-hidden="true">04</span>
         <h3 class="mt-3 font-titulo text-2xl font-semibold">Fios de PDO e Magic Lift</h3>
-        <p class="mt-2 grow text-texto-suave">Procedimentos com fios, área em que a Dra. Tati também ministra mentorias presenciais.</p>
+        <p class="mt-2 grow text-texto-suave">Fios de PDO e a técnica Magic Lift, criada pela Dra. Tati, que também ministra mentorias presenciais sobre fios.</p>
         <a href="https://wa.me/5511996663582?text=Ol%C3%A1!%20Tenho%20interesse%20em%20fios%20de%20PDO%20e%20Magic%20Lift." target="_blank" rel="noopener"
            class="mt-5 self-start font-semibold text-marca underline decoration-2 underline-offset-4 hover:text-marca-escura"
            data-track="whatsapp" data-origem="servico-fios">Perguntar sobre fios</a>
@@ -314,13 +314,48 @@
       <ul class="mt-8 space-y-3">
         <li class="flex gap-3"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" class="mt-0.5 shrink-0 text-marca" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>Biomédica, CRBM 42.486/SP</span></li>
         <li class="flex gap-3"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" class="mt-0.5 shrink-0 text-marca" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>19 anos de experiência em estética</span></li>
-        <li class="flex gap-3"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" class="mt-0.5 shrink-0 text-marca" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>Atualização internacional, com curso na Universitat de Barcelona</span></li>
+        <li class="flex gap-3"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" class="mt-0.5 shrink-0 text-marca" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>Criadora do Método Trinity e da técnica Magic Lift</span></li>
         <li class="flex gap-3"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" class="mt-0.5 shrink-0 text-marca" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>Professora e mentora presencial de fios e glúteos</span></li>
+      </ul>
+
+      <dl class="mt-8 grid max-w-md grid-cols-2 gap-6 border-y border-texto/15 py-6">
+        <div><dt class="text-sm text-texto-suave">Alunos</dt><dd class="font-titulo text-4xl font-semibold text-marca">+500</dd></div>
+        <div><dt class="text-sm text-texto-suave">Atendimentos</dt><dd class="font-titulo text-4xl font-semibold text-marca">+10 mil</dd></div>
+      </dl>
+
+      <h3 class="mt-8 font-semibold">Especializações internacionais</h3>
+      <ul class="mt-3 grid gap-x-8 gap-y-1.5 text-texto-suave sm:grid-cols-2">
+        <li>Sérvia: PhiAcademy</li>
+        <li>Estados Unidos: Harvard e Cambridge</li>
+        <li>Espanha: Universitat de Barcelona</li>
+        <li>Coreia: K-club</li>
+        <li>Chile: Medbeauty</li>
+        <li>França: Micro Paris</li>
       </ul>
     </div>
   </div>
 </section>
 <!-- /SECTION: sobre -->
+
+<!-- SECTION: equipe -->
+<!-- Foto do Instagram da clínica (protótipo). Números do post da Dra. Tati: confirmar antes da entrega. -->
+<section id="equipe" class="pb-16 md:pb-24" aria-labelledby="equipe-titulo">
+  <div class="container-lp grid gap-10 lg:grid-cols-[1fr_1.4fr] lg:items-center lg:gap-16">
+    <div>
+      <h2 id="equipe-titulo" class="font-titulo text-4xl font-semibold md:text-5xl">A equipe Biocline</h2>
+      <p class="mt-4 max-w-prose text-texto-suave">Uma clínica de referência em estética, fundada pela Dra. Tati e feita por quem cuida de cada paciente no dia a dia.</p>
+      <dl class="mt-8 grid max-w-md grid-cols-2 gap-6">
+        <div><dt class="text-sm text-texto-suave">Colaboradoras</dt><dd class="font-titulo text-4xl font-semibold text-marca">+10</dd></div>
+        <div><dt class="text-sm text-texto-suave">Pacientes por mês</dt><dd class="font-titulo text-4xl font-semibold text-marca">+300</dd></div>
+      </dl>
+    </div>
+    <img src="assets/img/equipe-biocline-600.webp" srcset="assets/img/equipe-biocline-600.webp 600w, assets/img/equipe-biocline.webp 872w"
+         sizes="(min-width: 1024px) 55vw, 100vw"
+         width="872" height="486" alt="Dra. Tati ao centro, cercada pela equipe da Biocline, todas vestidas de branco diante de uma parede de folhagens"
+         loading="lazy" decoding="async" class="aspect-[872/486] w-full rounded-[2rem] object-cover lg:rounded-tr-[6rem]">
+  </div>
+</section>
+<!-- /SECTION: equipe -->
 
 <!-- SECTION: depoimentos -->
 <!-- Avaliações reais do Google, texto sem edição (origem e decisão registradas no briefing.md). Nota 5 de 5 em todas, informada pelo operador em 25/09/2026. -->
